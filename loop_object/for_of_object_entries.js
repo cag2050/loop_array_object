@@ -3,7 +3,6 @@ let obj = {
     b: 'bbb',
     c: 'ccc'
 }
-for (let value of Object.values(obj)) {
+for (let value of Object.entries(obj)) {
     console.log(value)
 }
-console.log(Object.entries(obj))
