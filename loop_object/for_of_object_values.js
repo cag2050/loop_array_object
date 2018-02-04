@@ -6,4 +6,3 @@ let obj = {
 for (let value of Object.values(obj)) {
     console.log(value)
 }
-console.log(Object.entries(obj))
