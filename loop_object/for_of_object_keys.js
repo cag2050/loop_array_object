@@ -3,6 +3,6 @@ let obj = {
     b: 'bbb',
     c: 'ccc'
 }
-for (let key in obj) {
+for (let key of Object.keys(obj)) {
     console.log(key + ": '" + obj[key] + "'")
 }
