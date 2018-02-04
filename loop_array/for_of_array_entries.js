@@ -1,4 +1,4 @@
 let arr = ['a', 'b', 'c']
-for (let item of arr.entries()) {
-    console.log(item)
+for (let [key, value] of arr.entries()) {
+    console.log(key + ": '" + value + "'")
 }
